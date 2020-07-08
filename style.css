@@ -10,9 +10,10 @@ header img{
     padding: 0px 20px;
 }
 .container{
-    width: 72%;
+    width: 80%;
+    margin: 0 auto;
 }
-#green-btn{
+#green-btn, #card-green-btn{
     background-color: #21B573;
     padding: 8px 25px;
     border-radius: 20px;
@@ -42,7 +43,7 @@ header img{
 .green-txt{
     color: #00D000;
 }
-.banner p, {
+.banner p{
     color: 	#696969;
     line-height: 35px;
     padding-bottom: 4%;
@@ -54,7 +55,7 @@ header img{
 
 
 
-.key-features-sec img{
+.key-features-sec img {
     width: 50px;
     padding-bottom: 20px;
 }
@@ -65,11 +66,157 @@ header img{
 .green-bg{
     background-color: #F8FFFB;
 }
-.key-features-sec{
-    margin-top: 50px;
-    margin-bottom: 100px;
+.key-features-sec, .online-course-sec{
+    margin-top: 40px;
+    margin-bottom: 80px;
+    
 }
 .box-shadow{
    box-shadow: 10px 10px  50px #E8E8E8;
 
 }
+#card-green-btn{
+    font-size: small;
+    padding: 5px 20px;
+}
+
+.icon-img  {
+    width: 20px;;
+}
+.card-img-top{
+    padding: 10px;
+}
+.card{
+    border: none;
+    box-shadow: 10px 10px  30px #E8E8E8;
+    border-radius: 15px;
+}
+
+.course-info{
+    padding-top: 30px;
+}
+.card-title{
+    color: #413960;
+}
+.card-text, .course-info small{
+    color: #585859;
+}
+.card-heading{
+    padding-bottom: 50px;
+    color: #413960;
+}
+.testmonial img{
+    width: 50px;
+   
+}
+.d-block{
+    border-radius: 200%;
+}
+.reviews{
+    width: 60%;
+}
+.reviews{
+    margin: 0 auto;
+}
+.review-item{
+    padding: 20px;
+}
+.demo-client{
+    border-radius: 40%;
+}
+.carousel-indicators li {
+    background-color: green;
+    
+}
+
+.carousel-indicators{
+margin-bottom: -50px;
+}
+footer{
+   
+    background-color: #282531;
+    margin-top: 200px;
+    color: rgb(204, 204, 204);
+}
+
+
+
+.footer-txt{
+    padding-top: 30px;
+}
+.footer{
+    padding-bottom: 100px;
+}
+.social-icon{
+    width: 50px;
+    padding: 5px ;
+}
+
+
+
+
+@media (min-width: 276px) { 
+    .banner h1{
+        font-weight: bold;
+       font-size: 30px;
+      
+    }
+
+
+    .testimonial img{
+        width: 50%;
+        margin: 0 auto;
+        padding: 10px 5px;
+        
+    }
+    .slider{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+        padding: 0px;
+    }
+
+ }
+
+
+@media (min-width: 768px) { 
+    .banner h1{
+        font-weight: bold;
+       font-size: 50px;
+       padding-top: 10px;
+    }
+    .testimonial img{
+        width: 100%;
+    }
+    .slider{
+        width: 70%;
+    }
+    .footer{
+        padding-bottom: 100px;
+    }
+ }
+
+@media (min-width: 992px) { 
+    .banner h1{
+        font-weight: bold;
+       font-size: 50px;
+       padding-top: 10px;
+    }
+    .testimonial img{
+        width: 100%;
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+ 
+    .banner h1{
+        font-weight: bold;
+       font-size: 50px;
+       padding-top: 10px;
+    }
+    .testimonial img{
+        width: 100%;
+    }
+ }
